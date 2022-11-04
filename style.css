@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;
 }
 .header{
   min-height: 100vh;
-  width: 100%;
+  width; 100%;
   background-image: linear-gradient(rgba(4,9,30,0,7) ,rgba(4,9,30,0,7)),url(images/1.jpg);
   background-position: center;
   background-size: cover;
@@ -126,6 +126,59 @@ p{
   line-height: 22px;
   padding: 10px;
 }
+.BLOG{
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  pudding-top: 200px;
+  background-color: #fff;
+  background-size: auto;
+}
+}
+
+.bl-col{
+  flex-basis: 31%;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  text-align: left;
+
+}
+
+.bl-col img{
+  margin-top: 16px;
+  margin-left: 20px;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.bl-col p{
+  position: 5;
+  margin-left: 40px;
+  text-align: left;
+}
+.bl-col h3{
+  margin-top: 16px;
+  margin-left:35px;
+  margin-bottom: 15px;
+  text-align: left;
+
+}
+
+.bl-col h1{
+  margin-top: 16px;
+  margin-left: 35px;
+  margin-bottom: 15px;
+  text-align: left;
+
+}
+.bl-col h2{
+  margin-top: 16px;
+  margin-left: 35px;
+  margin-bottom: 15px;
+  text-align: left;
+
+}
 .row{
   margin-top: 0%;
   display: flex;
@@ -135,7 +188,7 @@ p{
 
   background: #f0f8ff;
   border-radius: 10px;
-  margin-left: 7%;
+  margin-left: : 7%;
   margin-right: 7%;
   margin-bottom:  inherit;
   pudding:20px 12px;
@@ -146,7 +199,7 @@ p{
 
   background: #fffff0;
   border-radius: 10px;
-  margin-left: 7%;
+  margin-left: : 7%;
   margin-right: 7%;
 margin-bottom:  inherit;
   pudding:20px 12px;
@@ -158,8 +211,8 @@ margin-bottom:  inherit;
   background: #fff3f3;
   border-radius: 10px;
   margin-bottom:  inherit;
-  margin-right:  7%;
-  margin-left:  7%;
+  margin-right: : 7%;
+  margin-left: : 7%;
   pudding:20px 12px;
   box-sizing: border-box;
   justify-content: space-between;
